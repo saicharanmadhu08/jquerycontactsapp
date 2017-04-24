@@ -1,0 +1,50 @@
+[
+    {
+        "firstname": "Sai Charan",
+        "lastname": "Madhu",
+        "location": "NJ",
+        "phone": "9139403183"
+    },
+    {
+        "firstname": "Sai Chandra",
+        "lastname": "Madhu",
+        "location": "MO",
+        "phone": "9136200404"
+    },
+    {
+        "firstname": "John White",
+        "lastname": "Purcel",
+        "location": "London",
+        "phone": "55022578945"
+    },
+    {
+        "firstname": "Mike",
+        "lastname": "Jack",
+        "location": "TX",
+        "phone": "8946224561"
+    },
+    {
+        "firstname": "Sai Charan",
+        "lastname": "Madhu",
+        "location": "NJ",
+        "phone": "9139403183"
+    },
+    {
+        "firstname": "Sai Chandra",
+        "lastname": "Madhu",
+        "location": "MO",
+        "phone": "9136200404"
+    },
+    {
+        "firstname": "John White",
+        "lastname": "Purcel",
+        "location": "London",
+        "phone": "55022578945"
+    },
+    {
+        "firstname": "Mike",
+        "lastname": "Jack",
+        "location": "TX",
+        "phone": "8946224561"
+    }
+]

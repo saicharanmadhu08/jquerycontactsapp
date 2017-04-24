@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="app.js"></script>
+
+</head>
+<body>
+    <div id="eachContactView"></div>
+    <div id="editContactView">
+        <h1 id="sno"></h1>
+        <p>Firstname:<input type="text" id="firstnameEdit"/></p>
+        <p>Lastname:<input type="text" id="lastnameEdit"/></p>
+        <p>Location&nbsp&nbsp:<input type="text" id="locationEdit"/></p>
+        <p>Phone &nbsp&nbsp&nbsp&nbsp:<input type="text" id="phoneEdit"/></p>
+        <p><button id="save">Save</button></p>
+    </div>
+    <div id="overlay"></div>
+    <h1>Contacts App</h1>
+    <br />
+    <div class="container" id="container">
+        <button id="showContactButton" class="btn-default">Show Contacts</button>
+        <button id="addNewContactButton" class="btn-default">Add New Contact</button>
+        <button id="CancelContactButton" class="btn-default">Cancel</button>
+        <div class="form-group has-feedback" id="searchDiv">
+            <input type="text" class="form-control" id="searchKey" />
+            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+        </div>
+        <br /><br />
+        <div id="newContactForm">
+            <div class="form-group">
+                <label for="Firstname">Firstname:</label>
+                <input type="text" class="form-control" id="firstname">
+            </div><br />
+            <div class="alert alert-danger" id="firstNameError" hidden="true"></div><br />
+            <div class="form-group">
+                <label for="Lastname">Lastname:</label>
+                <input type="text" class="form-control" id="lastname">
+            </div><br />
+            <div class="alert alert-danger" id="lastnameError" hidden="true"></div><br />
+            <div class="form-group">
+                <label for="Location">Location:</label>
+                <input type="text" class="form-control" id="location">
+            </div><br />
+            <div class="alert alert-danger" id="locationError" hidden="true"></div><br />
+            <div class="form-group">
+                <label for="Phone">Phone:</label>
+                <input type="text" class="form-control" id="phone">
+            </div><br />
+            <div class="alert alert-danger" id="phoneError" hidden="true"></div><br />
+            <button type="submit" id="submitContact" class="btn btn-default">Submit</button>
+        </div>
+
+        <div id="contactsTable">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Location</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyRows">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

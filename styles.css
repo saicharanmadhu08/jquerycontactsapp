@@ -1,0 +1,30 @@
+#CancelContactButton,#newContactForm,#showContactButton{
+    display: none;
+}
+
+#searchDiv{
+    width: 250px;
+    float: right;
+}
+
+tr:hover { 
+    cursor: pointer;
+}
+
+#eachContactView,#editContactView{
+    position:fixed;
+	display:none;
+	left:60%;
+    top: 25%;
+	background-color:black;
+    color: seagreen;
+    border: solid;
+	width:250px;
+	height:250px;
+	margin-left:-350px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+
+
